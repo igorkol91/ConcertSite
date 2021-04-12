@@ -1,0 +1,169 @@
+/* Initialisation  */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* stylelint-disable */
+  font-family: cocogoose, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* stylelint-enable */
+}
+
+header nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.burger-icon-menu {
+  position: relative;
+}
+
+.burger-icon-menu img {
+  margin-top: 1em;
+  height: 3em;
+}
+
+.burger-icon-menu ul {
+  display: none;
+}
+
+.burger-icon-menu:hover ul {
+  position: absolute;
+  display: block;
+}
+
+.left-header-div img {
+  height: 4em;
+  background: transparent;
+}
+
+.right-header-div ul li {
+  margin-right: 2em;
+}
+
+.nav-items {
+  color: #272a31;
+}
+
+.nav-items:hover {
+  color: #ec5242;
+}
+
+.main-top-div {
+  background-color: #d3d3d3;
+  border-radius: 0.3em;
+}
+
+.main-top-div h1 {
+  -webkit-transition: color 1s ease;
+  transition: color 1s ease;
+  color: #272a31;
+}
+
+.main-top-div h1:hover {
+  color: #ec5242;
+}
+
+.past-concerts-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.past-concert-article-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 15em;
+  color: #d3d3d3;
+}
+
+.past-concert-article-main div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #ec5342a1;
+}
+
+.past-concert-article-main h1 {
+  z-index: 999;
+}
+
+.past-concert-article-main p {
+  z-index: 999;
+}
+
+.past-concert-article1 {
+  background-image: url(../assets/concert-img-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.past-concert-article2 {
+  background-image: url(../assets/concert-img-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer,
+footer a {
+  color: #272a31;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ec5242;
+}
+
+.bottom-footer-container {
+  background-color: #d3d3d3;
+}
+
+.bottom-footer-container img {
+  height: 7em;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.bottom-footer-container span {
+  margin-left: 2em;
+}
+
+.top-footer-section {
+  background-color: #d3d3d3;
+}
+
+.top-footer-section ul li {
+  display: inline-block;
+  margin: 0 1em;
+}
+/*# sourceMappingURL=main.css.map */

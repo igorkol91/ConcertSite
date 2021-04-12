@@ -1,0 +1,142 @@
+/* Initialisation  */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* stylelint-disable */
+    font-family: cocogoose, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    /* stylelint-enable */
+}
+
+$black-color:#272a31;
+$orange-color:#ec5242;
+$white-color:#d3d3d3;
+header nav {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.burger-icon-menu {
+    position: relative;
+}
+
+.burger-icon-menu img {
+    margin-top: 1em;
+    height: 3em;
+}
+
+.burger-icon-menu ul {
+    display: none;
+}
+
+.burger-icon-menu:hover ul {
+    position: absolute;
+    display: block;
+}
+
+.left-header-div img {
+    height: 4em;
+    background: transparent;
+}
+
+.right-header-div ul li {
+    margin-right: 2em;
+}
+
+.nav-items {
+    color: $black-color;
+}
+
+.nav-items:hover {
+    color: $orange-color;
+}
+
+.main-top-div {
+    background-color: $white-color;
+    border-radius: 0.3em;
+    h1 {
+        transition: color 1s ease;
+        color: $black-color;
+    }
+    h1:hover {
+        color: $orange-color;
+    }
+}
+
+.past-concerts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.past-concert-article-main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    height: 15em;
+    color: #d3d3d3;
+    div {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #ec5342a1;
+    }
+    h1 {
+        z-index: 999;
+    }
+    p {
+        z-index: 999;
+    }
+}
+
+.past-concert-article1 {
+    background-image: url(../assets/concert-img-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.past-concert-article2 {
+    background-image: url(../assets/concert-img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer,
+footer a {
+    color: $black-color;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: $orange-color;
+}
+
+.bottom-footer-container {
+    background-color: $white-color;
+    img {
+        height: 7em;
+        justify-self: center;
+        align-self: center;
+    }
+    span {
+        margin-left: 2em;
+    }
+}
+
+.top-footer-section {
+    background-color: $white-color;
+    ul {
+        li {
+            display: inline-block;
+            margin: 0 1em;
+        }
+    }
+}
