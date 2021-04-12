@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: "cocogoose";
-    src: url("../assets/Cocogoose\ Pro\ Semilight-trial.ttf");
+    src: url("../assets/COCOGOOSELETTERPRESS\ TRIAL.ttf");
 }
 
 .fontfamilylato {
@@ -28,9 +28,18 @@
 $black-color:#272a31;
 $orange-color:#ec5242;
 $white-color:#d3d3d3;
+.orange {
+    color: $orange-color;
+}
+
 header nav {
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.left-header-div,
+.right-header-div {
+    display: none;
 }
 
 .burger-icon-menu {
@@ -226,7 +235,36 @@ footer a:hover {
     }
 }
 
+.confirm-button-div {
+    background-color: $orange-color;
+    width: 25%;
+    align-self: center;
+    color: $white-color;
+    border-radius: 3px;
+}
+
+.confirm-button-div:hover {
+    cursor: pointer;
+}
+
+.ticket-schedule-section {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-row-gap: 4em;
+    grid-row-gap: 1.5em;
+    div {
+        margin-left: 1em;
+    }
+}
+
 @media only screen and (min-width: 768px) {
+    .left-header-div,
+    .right-header-div {
+        display: block;
+    }
+    .burger-icon-menu {
+        display: none;
+    }
     .main-main-article-container1 {
         display: flex;
         flex-direction: row;
@@ -239,6 +277,9 @@ footer a:hover {
     .lecture-div {
         width: 20%;
         margin-bottom: 3em;
+    }
+    .lecture-div img {
+        padding-top: 1em;
     }
     .main-article-button {
         display: none;

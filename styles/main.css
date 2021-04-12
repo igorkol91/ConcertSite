@@ -13,7 +13,7 @@
 
 @font-face {
   font-family: "cocogoose";
-  src: url("../assets/Cocogoose Pro Semilight-trial.ttf");
+  src: url("../assets/COCOGOOSELETTERPRESS TRIAL.ttf");
 }
 
 .fontfamilylato {
@@ -24,6 +24,10 @@
   font-family: cocogoose, sans-serif;
 }
 
+.orange {
+  color: #ec5242;
+}
+
 header nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -31,6 +35,11 @@ header nav {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+.left-header-div,
+.right-header-div {
+  display: none;
 }
 
 .burger-icon-menu {
@@ -264,7 +273,41 @@ footer a:hover {
           flex-direction: column;
 }
 
+.confirm-button-div {
+  background-color: #ec5242;
+  width: 25%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #d3d3d3;
+  border-radius: 3px;
+}
+
+.confirm-button-div:hover {
+  cursor: pointer;
+}
+
+.ticket-schedule-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (25%)[4];
+      grid-template-columns: repeat(4, 25%);
+  grid-row-gap: 4em;
+  grid-row-gap: 1.5em;
+}
+
+.ticket-schedule-section div {
+  margin-left: 1em;
+}
+
 @media only screen and (min-width: 768px) {
+  .left-header-div,
+  .right-header-div {
+    display: block;
+  }
+  .burger-icon-menu {
+    display: none;
+  }
   .main-main-article-container1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -287,6 +330,9 @@ footer a:hover {
   .lecture-div {
     width: 20%;
     margin-bottom: 3em;
+  }
+  .lecture-div img {
+    padding-top: 1em;
   }
   .main-article-button {
     display: none;
