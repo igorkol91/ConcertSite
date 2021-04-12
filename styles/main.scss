@@ -12,6 +12,19 @@
     /* stylelint-enable */
 }
 
+@font-face {
+    font-family: "cocogoose";
+    src: url("../assets/Cocogoose\ Pro\ Semilight-trial.ttf");
+}
+
+.fontfamilylato {
+    font-family: lato, sans-serif;
+}
+
+.fontfamilycocogoose {
+    font-family: cocogoose, sans-serif;
+}
+
 $black-color:#272a31;
 $orange-color:#ec5242;
 $white-color:#d3d3d3;
@@ -137,6 +150,121 @@ footer a:hover {
         li {
             display: inline-block;
             margin: 0 1em;
+        }
+    }
+}
+
+.main-ticket-header {
+    margin: 0 auto;
+    h1 {
+        border-bottom: 1px solid $orange-color;
+    }
+}
+
+.main-main-article-container {
+    background-color: $black-color;
+}
+
+.lecture-div {
+    margin: 0.5em 1em;
+    background-color: rgba(128, 128, 128, 0.137);
+}
+
+.lecture-div-left h4 {
+    color: $orange-color;
+}
+
+.lecture-div-right p,
+.main-article-header {
+    color: $white-color;
+}
+
+.main-article-button {
+    align-self: center;
+    color: #d3d3d3;
+    background-color: #ec5242;
+    width: 60%;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-article-button:hover {
+    cursor: pointer;
+    color: $white-color;
+}
+
+.main-featured-article {
+    width: 80%;
+    justify-self: center;
+}
+
+.main-featured-right {
+    .orange-p {
+        color: $orange-color;
+    }
+    p {
+        font-size: 11px;
+    }
+}
+
+.main-main-article-container1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket-line-one {
+    h6 {
+        color: $orange-color;
+    }
+}
+
+.ticket-select-ul {
+    max-width: 768px;
+    li {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main-main-article-container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .lecture-div,
+    .lecture-div-left {
+        flex-direction: column;
+    }
+    .lecture-div {
+        width: 20%;
+        margin-bottom: 3em;
+    }
+    .main-article-button {
+        display: none;
+    }
+    .main-featured-article {
+        width: 100%;
+    }
+    .main-featured-groups-container {
+        display: grid;
+        grid-template-columns: 48% 48%;
+    }
+    .past-concerts-container {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ticket-select-ul {
+        flex-direction: column;
+        width: 65%;
+        li {
+            display: flex;
+            input {
+                align-self: flex-start;
+                margin-bottom: 0.3em;
+            }
         }
     }
 }

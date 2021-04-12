@@ -11,6 +11,19 @@
   /* stylelint-enable */
 }
 
+@font-face {
+  font-family: "cocogoose";
+  src: url("../assets/Cocogoose Pro Semilight-trial.ttf");
+}
+
+.fontfamilylato {
+  font-family: lato, sans-serif;
+}
+
+.fontfamilycocogoose {
+  font-family: cocogoose, sans-serif;
+}
+
 header nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -165,5 +178,153 @@ footer a:hover {
 .top-footer-section ul li {
   display: inline-block;
   margin: 0 1em;
+}
+
+.main-ticket-header {
+  margin: 0 auto;
+}
+
+.main-ticket-header h1 {
+  border-bottom: 1px solid #ec5242;
+}
+
+.main-main-article-container {
+  background-color: #272a31;
+}
+
+.lecture-div {
+  margin: 0.5em 1em;
+  background-color: rgba(128, 128, 128, 0.137);
+}
+
+.lecture-div-left h4 {
+  color: #ec5242;
+}
+
+.lecture-div-right p,
+.main-article-header {
+  color: #d3d3d3;
+}
+
+.main-article-button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #d3d3d3;
+  background-color: #ec5242;
+  width: 60%;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.main-article-button:hover {
+  cursor: pointer;
+  color: #d3d3d3;
+}
+
+.main-featured-article {
+  width: 80%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.main-featured-right .orange-p {
+  color: #ec5242;
+}
+
+.main-featured-right p {
+  font-size: 11px;
+}
+
+.main-main-article-container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ticket-line-one h6 {
+  color: #ec5242;
+}
+
+.ticket-select-ul {
+  max-width: 768px;
+}
+
+.ticket-select-ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-main-article-container1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .lecture-div,
+  .lecture-div-left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .lecture-div {
+    width: 20%;
+    margin-bottom: 3em;
+  }
+  .main-article-button {
+    display: none;
+  }
+  .main-featured-article {
+    width: 100%;
+  }
+  .main-featured-groups-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 48% 48%;
+        grid-template-columns: 48% 48%;
+  }
+  .past-concerts-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ticket-select-ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 65%;
+  }
+  .ticket-select-ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .ticket-select-ul li input {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-bottom: 0.3em;
+  }
 }
 /*# sourceMappingURL=main.css.map */
