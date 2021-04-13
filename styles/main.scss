@@ -3,323 +3,350 @@
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    /* stylelint-disable */
-    font-family: lato, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    /* stylelint-enable */
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* stylelint-disable */
+  font-family: lato, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* stylelint-enable */
 }
 
 @font-face {
-    font-family: "cocogoose";
-    src: url("../assets/COCOGOOSELETTERPRESS\ TRIAL.ttf");
+  font-family: "cocogoose";
+  src: url("../assets/COCOGOOSELETTERPRESS\ TRIAL.ttf");
 }
 
 .fontfamilylato {
-    font-family: lato, sans-serif;
+  font-family: lato, sans-serif;
 }
 
 .fontfamilycocogoose {
-    font-family: cocogoose, sans-serif;
+  font-family: cocogoose, sans-serif;
 }
 
 $black-color:#272a31;
 $orange-color:#ec5242;
 $white-color:#d3d3d3;
+
 .orange {
-    color: $orange-color;
+  color: $orange-color;
 }
 
 header nav {
-    justify-content: space-between;
-    align-items: flex-end;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .left-header-div,
 .right-header-div {
-    display: none;
+  display: none;
 }
 
 .burger-icon-menu {
-    position: relative;
+  position: relative;
 }
 
 .burger-icon-menu img {
-    margin-top: 1em;
-    height: 3em;
+  margin-top: 1em;
+  height: 3em;
 }
 
 .burger-icon-menu ul {
-    display: none;
+  display: none;
 }
 
 .burger-icon-menu:hover ul {
-    position: absolute;
-    display: block;
+  position: absolute;
+  display: block;
 }
 
 .left-header-div img {
-    height: 4em;
-    background: transparent;
+  height: 4em;
+  background: transparent;
 }
 
 .right-header-div ul li {
-    margin-right: 2em;
+  margin-right: 2em;
 }
 
 .nav-items {
-    color: $black-color;
+  color: $black-color;
 }
 
 .nav-items:hover {
-    color: $orange-color;
+  color: $orange-color;
 }
 
 .main-top-div {
-    background-color: $white-color;
-    border-radius: 0.3em;
-    h1 {
-        transition: color 1s ease;
-        color: $black-color;
-    }
-    h1:hover {
-        color: $orange-color;
-    }
+  background-color: $white-color;
+  border-radius: 0.3em;
+
+  h1 {
+    transition: color 1s ease;
+    color: $black-color;
+  }
+
+  h1:hover {
+    color: $orange-color;
+  }
 }
 
 .main-date-header {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .past-concerts-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .past-concert-article-main {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    width: 50%;
-    height: 15em;
-    color: #d3d3d3;
-    div {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-color: #ec5342a1;
-    }
-    h1 {
-        z-index: 999;
-    }
-    p {
-        z-index: 999;
-    }
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  height: 15em;
+  color: #d3d3d3;
+
+  div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #ec5342a1;
+  }
+
+  h1 {
+    z-index: 999;
+  }
+
+  p {
+    z-index: 999;
+  }
 }
 
 .past-concert-article1 {
-    background-image: url(../assets/concert-img-1.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../assets/concert-img-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .past-concert-article2 {
-    background-image: url(../assets/concert-img-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../assets/concert-img-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer,
 footer a {
-    color: $black-color;
-    text-decoration: none;
+  color: $black-color;
+  text-decoration: none;
 }
 
 footer a:hover {
-    color: $orange-color;
+  color: $orange-color;
 }
 
 .bottom-footer-container {
-    background-color: $white-color;
-    img {
-        height: 7em;
-        justify-self: center;
-        align-self: center;
-    }
-    span {
-        margin-left: 2em;
-    }
+  background-color: $white-color;
+  img {
+    height: 7em;
+    justify-self: center;
+    align-self: center;
+  }
+
+  span {
+    margin-left: 2em;
+  }
 }
 
 .top-footer-section {
-    background-color: $white-color;
-    ul {
-        li {
-            display: inline-block;
-            margin: 0 1em;
-        }
+  background-color: $white-color;
+
+  ul {
+    li {
+      display: inline-block;
+      margin: 0 1em;
     }
+  }
 }
 
 .main-ticket-header {
-    margin: 0 auto;
-    h1 {
-        border-bottom: 1px solid $orange-color;
-    }
+  margin: 0 auto;
+
+  h1 {
+    border-bottom: 1px solid $orange-color;
+  }
 }
 
 .main-main-article-container {
-    background-color: $black-color;
+  background-color: $black-color;
 }
 
 .lecture-div {
-    margin: 0.5em 1em;
-    background-color: rgba(128, 128, 128, 0.137);
+  margin: 0.5em 1em;
+  background-color: rgba(128, 128, 128, 0.137);
 }
 
 .lecture-div-left h4 {
-    color: $orange-color;
+  color: $orange-color;
 }
 
 .lecture-div-right p,
 .main-article-header {
-    color: $white-color;
+  color: $white-color;
 }
 
 .main-article-button {
-    align-self: center;
-    color: #d3d3d3;
-    background-color: #ec5242;
-    width: 60%;
-    border-radius: 2px;
-    text-decoration: none;
+  align-self: center;
+  color: #d3d3d3;
+  background-color: #ec5242;
+  width: 60%;
+  border-radius: 2px;
+  text-decoration: none;
 }
 
 .main-article-button:hover {
-    cursor: pointer;
-    color: $white-color;
+  cursor: pointer;
+  color: $white-color;
 }
 
 .main-featured-article {
-    width: 80%;
-    justify-self: center;
+  width: 80%;
+  justify-self: center;
 }
 
 .main-featured-right {
-    .orange-p {
-        color: $orange-color;
-    }
-    p {
-        font-size: 11px;
-    }
+  .orange-p {
+    color: $orange-color;
+  }
+
+  p {
+    font-size: 11px;
+  }
 }
 
 .main-main-article-container1 {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .ticket-line-one {
-    h6 {
-        color: $orange-color;
-    }
+  h6 {
+    color: $orange-color;
+  }
 }
 
 .ticket-select-ul {
-    max-width: 768px;
-    align-items: stretch;
-    li {
-        display: flex;
-        flex-direction: column;
-    }
+  max-width: 768px;
+  align-items: stretch;
+
+  li {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .confirm-button-div {
-    background-color: $orange-color;
-    width: 25%;
-    align-self: center;
-    color: $white-color;
-    border-radius: 3px;
+  background-color: $orange-color;
+  width: 25%;
+  align-self: center;
+  color: $white-color;
+  border-radius: 3px;
 }
 
 .confirm-button-div:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .ticket-schedule-section {
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-row-gap: 4em;
-    grid-row-gap: 1.5em;
-    div {
-        margin-left: 1em;
-    }
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-row-gap: 4em;
+  grid-row-gap: 1.5em;
+
+  div {
+    margin-left: 1em;
+  }
 }
 
 .time-schedule img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 footer {
-    background-color: $black-color;
+  background-color: $black-color;
+}
+
+.footer-logo-img {
+  border-radius: 50%;
 }
 
 @media only screen and (min-width: 768px) {
-    .left-header-div,
-    .right-header-div {
-        display: block;
-    }
-    .burger-icon-menu {
-        display: none;
-    }
-    .main-main-article-container1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .lecture-div,
-    .lecture-div-left {
-        flex-direction: column;
-    }
-    .lecture-div {
-        width: 20%;
-        margin-bottom: 3em;
-    }
-    .lecture-div img {
-        padding-top: 1em;
-    }
-    .main-article-button {
-        display: none;
-    }
-    .main-featured-article {
-        width: 100%;
-    }
-    .main-featured-groups-container {
-        display: grid;
-        grid-template-columns: 48% 48%;
-    }
-    .past-concerts-container {
-        flex-direction: row;
-    }
+  .left-header-div,
+  .right-header-div {
+    display: block;
+  }
+
+  .burger-icon-menu {
+    display: none;
+  }
+
+  .main-main-article-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .lecture-div,
+  .lecture-div-left {
+    flex-direction: column;
+  }
+
+  .lecture-div {
+    width: 20%;
+    margin-bottom: 3em;
+  }
+
+  .lecture-div img {
+    padding-top: 1em;
+  }
+
+  .main-article-button {
+    display: none;
+  }
+
+  .main-featured-article {
+    width: 100%;
+  }
+
+  .main-featured-groups-container {
+    display: grid;
+    grid-template-columns: 48% 48%;
+  }
+
+  .past-concerts-container {
+    flex-direction: row;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .ticket-select-ul {
-        flex-direction: column;
-        width: 65%;
-        li {
-            display: flex;
-            input {
-                align-self: flex-start;
-                margin-bottom: 0.3em;
-            }
-        }
+  .ticket-select-ul {
+    flex-direction: column;
+    width: 65%;
+
+    li {
+      display: flex;
+
+      input {
+        align-self: flex-start;
+        margin-bottom: 0.3em;
+      }
     }
+  }
 }
