@@ -114,7 +114,6 @@ header nav {
 }
 
 .past-concerts-container {
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -129,7 +128,6 @@ header nav {
 }
 
 .past-concert-article-main {
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -257,8 +255,6 @@ footer a:hover {
 }
 
 .main-main-article-container1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -327,7 +323,6 @@ footer {
   }
 
   .main-main-article-container1 {
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -388,7 +383,6 @@ footer {
   }
 
   .ticket-select-ul li {
-    display: -ms-flexbox;
     display: flex;
   }
 

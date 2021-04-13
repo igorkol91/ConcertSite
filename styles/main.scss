@@ -56,6 +56,11 @@ header nav {
   display: none;
 }
 
+.ticket-select-ul li {
+  display: flex;
+  flex-direction: column;
+}
+
 .top-footer-section ul {
   li {
     display: inline-block;
@@ -71,11 +76,6 @@ header nav {
 .left-header-div img {
   height: 4em;
   background: transparent;
-}
-
-.ticket-select-ul li {
-  display: flex;
-  flex-direction: column;
 }
 
 .right-header-div ul li {
