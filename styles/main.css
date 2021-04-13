@@ -90,7 +90,7 @@ header nav {
   color: #ec5242;
 }
 
-.main-ticket-header h1 {
+.main-ticket-header h2 {
   border-bottom: 1px solid #ec5242;
 }
 
@@ -364,7 +364,6 @@ footer {
   }
 
   .main-featured-groups-container {
-    display: -ms-grid;
     display: grid;
     -ms-grid-columns: 48% 48%;
     grid-template-columns: 48% 48%;
