@@ -65,6 +65,15 @@ header nav {
   background: transparent;
 }
 
+.ticket-select-ul li {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 .right-header-div ul li {
   margin-right: 2em;
 }
@@ -88,6 +97,14 @@ header nav {
   color: #272a31;
 }
 
+.past-concert-article-main h1 {
+  z-index: 999;
+}
+
+.main-ticket-header h1 {
+  border-bottom: 1px solid #ec5242;
+}
+
 .main-top-div h1:hover {
   color: #ec5242;
 }
@@ -97,7 +114,6 @@ header nav {
 }
 
 .past-concerts-container {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
@@ -113,7 +129,6 @@ header nav {
 }
 
 .past-concert-article-main {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
@@ -135,10 +150,6 @@ header nav {
   height: 100%;
   width: 100%;
   background-color: #ec5342a1;
-}
-
-.past-concert-article-main h1 {
-  z-index: 999;
 }
 
 .past-concert-article-main p {
@@ -195,10 +206,6 @@ footer a:hover {
 
 .main-ticket-header {
   margin: 0 auto;
-}
-
-.main-ticket-header h1 {
-  border-bottom: 1px solid #ec5242;
 }
 
 .main-main-article-container {
@@ -270,16 +277,6 @@ footer a:hover {
   align-items: stretch;
 }
 
-.ticket-select-ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
 .confirm-button-div {
   background-color: #ec5242;
   width: 25%;
@@ -297,7 +294,6 @@ footer a:hover {
 .ticket-schedule-section {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (25%)(4);
   grid-template-columns: repeat(4, 25%);
   grid-row-gap: 4em;
   grid-row-gap: 1.5em;
@@ -331,7 +327,6 @@ footer {
   }
 
   .main-main-article-container1 {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
@@ -387,20 +382,19 @@ footer {
   .ticket-select-ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     width: 65%;
   }
 
   .ticket-select-ul li {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
 
   .ticket-select-ul li input {
     -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     margin-bottom: 0.3em;
   }
 }

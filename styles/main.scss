@@ -56,6 +56,13 @@ header nav {
   display: none;
 }
 
+.top-footer-section ul {
+  li {
+    display: inline-block;
+    margin: 0 1em;
+  }
+}
+
 .burger-icon-menu:hover ul {
   position: absolute;
   display: block;
@@ -64,6 +71,11 @@ header nav {
 .left-header-div img {
   height: 4em;
   background: transparent;
+}
+
+.ticket-select-ul li {
+  display: flex;
+  flex-direction: column;
 }
 
 .right-header-div ul li {
@@ -76,6 +88,14 @@ header nav {
 
 .nav-items:hover {
   color: $orange-color;
+}
+
+.main-ticket-header h1 {
+  border-bottom: 1px solid $orange-color;
+}
+
+.past-concert-article-main h1 {
+  z-index: 999;
 }
 
 .main-top-div {
@@ -120,10 +140,6 @@ header nav {
     background-color: #ec5342a1;
   }
 
-  h1 {
-    z-index: 999;
-  }
-
   p {
     z-index: 999;
   }
@@ -153,6 +169,7 @@ footer a:hover {
 
 .bottom-footer-container {
   background-color: $white-color;
+
   img {
     height: 7em;
     justify-self: center;
@@ -166,21 +183,10 @@ footer a:hover {
 
 .top-footer-section {
   background-color: $white-color;
-
-  ul {
-    li {
-      display: inline-block;
-      margin: 0 1em;
-    }
-  }
 }
 
 .main-ticket-header {
   margin: 0 auto;
-
-  h1 {
-    border-bottom: 1px solid $orange-color;
-  }
 }
 
 .main-main-article-container {
@@ -244,11 +250,6 @@ footer a:hover {
 .ticket-select-ul {
   max-width: 768px;
   align-items: stretch;
-
-  li {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 .confirm-button-div {
