@@ -30,11 +30,11 @@
 
 header nav {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .left-header-div,
@@ -56,13 +56,11 @@ header nav {
 }
 
 .ticket-select-ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .top-footer-section ul li {
@@ -124,30 +122,28 @@ header nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .past-concert-article-main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   position: relative;
   text-align: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 50%;
   height: 15em;
   color: #d3d3d3;
@@ -193,10 +189,10 @@ footer a:hover {
 .bottom-footer-container img {
   height: 7em;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .bottom-footer-container span {
@@ -235,8 +231,8 @@ footer a:hover {
 
 .main-article-button {
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   color: #d3d3d3;
   background-color: #ec5242;
   width: 60%;
@@ -252,7 +248,7 @@ footer a:hover {
 .main-featured-article {
   width: 80%;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
 }
 
 .main-featured-right .orange-p {
@@ -264,13 +260,11 @@ footer a:hover {
 }
 
 .main-main-article-container1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .ticket-line-one h6 {
@@ -280,15 +274,15 @@ footer a:hover {
 .ticket-select-ul {
   max-width: 768px;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 .confirm-button-div {
   background-color: #ec5242;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   color: #d3d3d3;
   border-radius: 3px;
   width: 25%;
@@ -303,8 +297,8 @@ footer a:hover {
 .ticket-schedule-section {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (25%)[4];
-      grid-template-columns: repeat(4, 25%);
+  -ms-grid-columns: (25%)(4);
+  grid-template-columns: repeat(4, 25%);
   grid-row-gap: 4em;
   grid-row-gap: 1.5em;
 }
@@ -331,53 +325,60 @@ footer {
   .right-header-div {
     display: block;
   }
+
   .burger-icon-menu {
     display: none;
   }
+
   .main-main-article-container1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
+
   .lecture-div,
   .lecture-div-left {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
+
   .lecture-div {
     width: 20%;
     margin-bottom: 3em;
     text-align: center;
   }
+
   .lecture-div img {
     padding-top: 1em;
   }
+
   .main-article-button {
     display: none;
   }
+
   .main-featured-article {
     width: 100%;
   }
+
   .main-featured-groups-container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 48% 48%;
-        grid-template-columns: 48% 48%;
+    grid-template-columns: 48% 48%;
   }
+
   .past-concerts-container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 }
 
@@ -385,18 +386,18 @@ footer {
   .ticket-select-ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     width: 65%;
   }
+
   .ticket-select-ul li {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
+
   }
   .ticket-select-ul li input {
     -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     margin-bottom: 0.3em;
   }
 }
