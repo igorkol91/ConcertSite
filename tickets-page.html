@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link crossorigin="anonymous" href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConcertTickets</title>
+</head>
+
+<body>
+    <header class="py-3">
+        <nav class="d-flex container">
+            <div class="burger-icon-menu">
+                <img src="./assets/Hamburger_icon.svg.png" alt="menu-icon">
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="./index.html" class="nav-items text-decoration-none">Main</a>
+                    </li>
+                    <li>
+                        <a href="./about.html" class="nav-items text-decoration-none">About</a>
+                    </li>
+                    <li>
+                        <a href="./tickets-page.html" class="nav-items text-decoration-none">Tickets</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="left-header-div">
+                <a href="./index.html">
+                    <img src="./assets/concert-logo-header.png" alt="concert-logo">
+                </a>
+            </div>
+            <div class="right-header-div">
+                <ul class="list-unstyled d-flex">
+                    <li>
+                        <a href="./index.html" class="nav-items text-decoration-none">Main</a>
+                    </li>
+                    <li>
+                        <a href="./about.html" class="nav-items text-decoration-none">About</a>
+                    </li>
+                    <li>
+                        <a href="./tickets-page.html" class="nav-items text-decoration-none">Tickets</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <div class="main-ticket-header pt-5 w-50 text-center">
+            <h2>Select Tickets</h2>
+        </div>
+        <div class="ticket-line-one pt-4 w-50 text-left mx-auto d-flex">
+            <h6 class="text-nowrap">Step 1 </h6>
+            <p> Please select the day when you want to attend the concert</p>
+        </div>
+
+        <section class="py-5 container d-flex flex-column w-75">
+            <div class="w-50 align-self-center">
+                <ul class="ticket-select-ul d-flex list-unstyled justify-content-between">
+                    <li>Date</li>
+                    <li>
+                        <label for="day1">11.05</label><input type="radio" id="day1" name="day" value="day" checked></li>
+                    <li>
+                        <label for="day2">12.05</label><input type="radio" id="day2" name="day" value="day"></li>
+                    <li>
+                        <label for="dayall">ALL</label><input type="radio" id="dayall" name="day" value="day"></li>
+                </ul>
+            </div>
+            <div class="w-50 align-self-center">
+                <ul class="ticket-select-ul d-flex list-unstyled justify-content-between">
+                    <li>Band</li>
+                    <li>
+                        <label for="band1">Mettalica</label><input type="radio" id="band1" name="band" value="band1" checked></li>
+                    <li>
+                        <label for="band2">Megadeth</label><input type="radio" id="band2" name="band" value="band2"></li>
+                    <li>
+                        <label for="bandall">ALL</label><input type="radio" id="bandall" name="band" value="bandall"></li>
+                </ul>
+            </div>
+            <div class="confirm-button-div text-center p-3 mt-5">Confirm</div>
+        </section>
+        <div class="main-ticket-header pt-4 w-50 text-center">
+            <h2>Select Your Lunch</h2>
+        </div>
+        <div class="ticket-line-one pt-4 w-50 text-left mx-auto d-flex">
+            <h6 class="text-nowrap">Step 2 </h6>
+            <p> Please select the meal and drink you whould like to have with our coupons</p>
+        </div>
+        <section class="py-5 container d-flex flex-column w-75">
+            <div class="w-50 align-self-center">
+                <ul class="ticket-select-ul d-flex list-unstyled justify-content-between">
+                    <li>Meal</li>
+                    <li>
+                        <label for="meal1">Hamurger </label><input type="radio" id="meal1" name="meal" value="meal1" checked></li>
+                    <li>
+                        <label for="meal2">Chicken-Salad</label><input type="radio" id="meal2" name="meal" value="meal2"></li>
+                    <li>
+                        <label for="meal3">Vegan</label><input type="radio" id="meal3" name="meal" value="meal3"></li>
+                </ul>
+            </div>
+            <div class="w-50 align-self-center">
+                <ul class="ticket-select-ul d-flex list-unstyled justify-content-between">
+                    <li>Drink</li>
+                    <li>
+                        <label for="coca-cola">Coca-Cola</label><input type="radio" id="coca-cola" name="drink" value="coca-cola" checked></li>
+                    <li>
+                        <label for="Schweppes">Schweppes</label><input type="radio" id="Schweppes" name="drink" value="Schweppes"></li>
+                    <li>
+                        <label for="Water">Water</label><input type="radio" id="Water" name="drink" value="Water"></li>
+                </ul>
+            </div>
+            <div class="confirm-button-div text-center p-3 mt-5">Confirm</div>
+        </section>
+        <div class="main-ticket-header pt-5 w-50 text-center">
+            <h1>Schedule</h1>
+        </div>
+        <section class="ticket-schedule-section py-5 container w-75">
+            <div>Days</div>
+            <div class="time-schedule fontfamilylato">
+                13:00 - 17:00
+            </div>
+            <div class="time-schedule fontfamilylato">
+                17:00 - 18:00
+            </div>
+            <div class="time-schedule fontfamilylato">
+                18:00 - 23:00
+            </div>
+            <div>Day 1</div>
+            <div class="time-schedule fontfamilylato">
+                2 surprise bands
+            </div>
+            <div class="time-schedule fontfamilylato">
+                Techno music lunch break
+            </div>
+            <div class="time-schedule fontfamilylato">
+                <img class="card-img-top" src="./assets/concert-img-1.jpeg" alt="tashaci"> Main event Mettalica
+            </div>
+            <div>Day 2</div>
+            <div class="time-schedule fontfamilylato">
+                Warm up with Bad Copy
+            </div>
+            <div class="time-schedule fontfamilylato">
+                Techno music lunch break
+            </div>
+            <div class="time-schedule fontfamilylato">
+                <img class="card-img-top" src="./assets/concert-img-2.jpg" alt="tashaci"> Main event Megadeth
+            </div>
+        </section>
+    </main>
+    <footer class="d-flex flex-column align-items-center pt-5">
+        <section class="top-footer-container d-flex justify-content-center w-100 pt-2">
+            <div class="top-footer-section w-75 d-flex flex-column align-items-center">
+                <h2 class="fontfamilycocogoose">Partners</h2>
+                <ul class="list-unstyled text-center">
+                    <li>
+                        <a href="#">
+                            <h2>mozzila</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h2>Google</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h2>NAVER</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h2>daumkakao</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h2>airbnb</h2>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="bottom-footer-container d-flex w-100 py-2">
+            <div class="d-flex mx-auto">
+                <span class="d-flex">
+              <a href="./index.html"><img class="footer-logo-img" src="./assets/concert-logo-header.png" alt="concert-logo"></a>
+            </span>
+            <div>
+                <div class="d-flex flex-column align-items-left justify-content-center">
+                    <div>
+                        <p>2020
+                            <a href="#">Concert.com</a>
+                        </p>
+                    </div>
+                    <div>
+                        <p class="fontfamilylato">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur maiores tempora repudiandae! </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
