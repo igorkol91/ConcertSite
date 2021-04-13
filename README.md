@@ -36,9 +36,11 @@ Just ensure you have one or more web browsers
 
 :bust_in_silhouette: **Author1**
 
-- GitHub: igorkol91
-- Twitter: @Destro49536502
+- GitHub: [@igorkol91](https://github.com/igorkol91)
+- Twitter: [@Destro49536502]
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+## Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 ## :handshake: Contributing
 
