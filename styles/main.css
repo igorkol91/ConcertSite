@@ -118,8 +118,6 @@ header nav {
 }
 
 .past-concerts-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -297,7 +295,7 @@ footer a:hover {
 .ticket-schedule-section {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (25%)(4);
+  -ms-grid-columns: (25%) (4);
   grid-template-columns: repeat(4, 25%);
   grid-row-gap: 4em;
   grid-row-gap: 1.5em;
@@ -393,8 +391,8 @@ footer {
 
   .ticket-select-ul li {
     display: flex;
-
   }
+
   .ticket-select-ul li input {
     -ms-flex-item-align: start;
     align-self: flex-start;
