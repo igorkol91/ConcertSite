@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header class="pt-2">
+    <header class="py-3">
         <nav class="d-flex container">
             <div class="burger-icon-menu">
                 <img src="./assets/Hamburger_icon.svg.png" alt="menu-icon">
@@ -60,24 +60,28 @@
         </div>
 
         <section class="py-5 container d-flex flex-column w-75">
-            <ul class="ticket-select-ul d-flex list-unstyled justify-content-between">
-                <li>Date</li>
-                <li>
-                    <label for="day1">11.05</label><input type="radio" id="day1" name="day" value="day"></li>
-                <li>
-                    <label for="day2">12.05</label><input type="radio" id="day2" name="day" value="day"></li>
-                <li>
-                    <label for="dayall">ALL</label><input type="radio" id="dayall" name="day" value="day"></li>
-            </ul>
-            <ul class="ticket-select-ul d-flex list-unstyled justify-content-between">
-                <li>Band</li>
-                <li>
-                    <label for="band1">Mettalica</label><input type="radio" id="band1" name="band" value="band1"></li>
-                <li>
-                    <label for="band2">Megadeth</label><input type="radio" id="band2" name="band" value="band2"></li>
-                <li>
-                    <label for="bandall">ALL</label><input type="radio" id="bandall" name="band" value="bandall"></li>
-            </ul>
+            <div class="w-50 align-self-center">
+                <ul class="ticket-select-ul d-flex list-unstyled justify-content-between">
+                    <li>Date</li>
+                    <li>
+                        <label for="day1">11.05</label><input type="radio" id="day1" name="day" value="day"></li>
+                    <li>
+                        <label for="day2">12.05</label><input type="radio" id="day2" name="day" value="day"></li>
+                    <li>
+                        <label for="dayall">ALL</label><input type="radio" id="dayall" name="day" value="day"></li>
+                </ul>
+            </div>
+            <div class="w-50 align-self-center">
+                <ul class="ticket-select-ul d-flex list-unstyled justify-content-between">
+                    <li>Band</li>
+                    <li>
+                        <label for="band1">Mettalica</label><input type="radio" id="band1" name="band" value="band1"></li>
+                    <li>
+                        <label for="band2">Megadeth</label><input type="radio" id="band2" name="band" value="band2"></li>
+                    <li>
+                        <label for="bandall">ALL</label><input type="radio" id="bandall" name="band" value="bandall"></li>
+                </ul>
+            </div>
             <div class="confirm-button-div text-center p-3 mt-5">Confirm</div>
         </section>
         <div class="main-ticket-header pt-4 w-50 text-center">
@@ -88,24 +92,28 @@
             <p> Please select the meal and drink you whould like to have with our coupons</p>
         </div>
         <section class="py-5 container d-flex flex-column w-75">
-            <ul class="ticket-select-ul d-flex list-unstyled justify-content-between">
-                <li>Meal</li>
-                <li>
-                    <label for="meal1">Hamurger </label><input type="radio" id="meal1" name="meal" value="meal1"></li>
-                <li>
-                    <label for="meal2">Chicken-Salad</label><input type="radio" id="meal2" name="meal" value="meal2"></li>
-                <li>
-                    <label for="meal3">Vegan</label><input type="radio" id="meal3" name="meal" value="meal3"></li>
-            </ul>
-            <ul class="ticket-select-ul d-flex list-unstyled justify-content-between">
-                <li>Band</li>
-                <li>
-                    <label for="coca-cola">Coca-Cola</label><input type="radio" id="coca-cola" name="drink" value="coca-cola"></li>
-                <li>
-                    <label for="Schweppes">Schweppes</label><input type="radio" id="Schweppes" name="drink" value="Schweppes"></li>
-                <li>
-                    <label for="Water">Water</label><input type="radio" id="Water" name="drink" value="Water"></li>
-            </ul>
+            <div class="w-50 align-self-center">
+                <ul class="ticket-select-ul d-flex list-unstyled justify-content-between">
+                    <li>Meal</li>
+                    <li>
+                        <label for="meal1">Hamurger </label><input type="radio" id="meal1" name="meal" value="meal1"></li>
+                    <li>
+                        <label for="meal2">Chicken-Salad</label><input type="radio" id="meal2" name="meal" value="meal2"></li>
+                    <li>
+                        <label for="meal3">Vegan</label><input type="radio" id="meal3" name="meal" value="meal3"></li>
+                </ul>
+            </div>
+            <div class="w-50 align-self-center">
+                <ul class="ticket-select-ul d-flex list-unstyled justify-content-between">
+                    <li>Band</li>
+                    <li>
+                        <label for="coca-cola">Coca-Cola</label><input type="radio" id="coca-cola" name="drink" value="coca-cola"></li>
+                    <li>
+                        <label for="Schweppes">Schweppes</label><input type="radio" id="Schweppes" name="drink" value="Schweppes"></li>
+                    <li>
+                        <label for="Water">Water</label><input type="radio" id="Water" name="drink" value="Water"></li>
+                </ul>
+            </div>
             <div class="confirm-button-div text-center p-3 mt-5">Confirm</div>
         </section>
         <div class="main-ticket-header pt-5 w-50 text-center">
@@ -130,7 +138,7 @@
                 Techno music lunch break
             </div>
             <div class="time-schedule fontfamilylato">
-                Main event Mettalica
+                <img class="card-img-top" src="./assets/concert-img-1.jpeg" alt="tashaci"> Main event Mettalica
             </div>
             <div>Day 2</div>
             <div class="time-schedule fontfamilylato">
@@ -140,7 +148,7 @@
                 Techno music lunch break
             </div>
             <div class="time-schedule fontfamilylato">
-                Main event Megadeth
+                <img class="card-img-top" src="./assets/concert-img-2.jpg" alt="tashaci"> Main event Megadeth
             </div>
         </section>
     </main>

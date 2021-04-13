@@ -8,7 +8,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     /* stylelint-disable */
-    font-family: cocogoose, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: lato, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     /* stylelint-enable */
 }
 
@@ -87,6 +87,10 @@ header nav {
     h1:hover {
         color: $orange-color;
     }
+}
+
+.main-date-header {
+    font-weight: 900;
 }
 
 .past-concerts-container {
@@ -229,6 +233,7 @@ footer a:hover {
 
 .ticket-select-ul {
     max-width: 768px;
+    align-items: stretch;
     li {
         display: flex;
         flex-direction: column;
@@ -255,6 +260,15 @@ footer a:hover {
     div {
         margin-left: 1em;
     }
+}
+
+.time-schedule img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    background-color: $black-color;
 }
 
 @media only screen and (min-width: 768px) {
